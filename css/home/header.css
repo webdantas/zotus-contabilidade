@@ -1,0 +1,75 @@
+/* Header */
+.header {
+    background-color: #1a2a4f;
+    padding: 0.625rem 0;
+    color: #FDFDFF;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header .container-menu {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 1.875rem;
+  }
+  
+  /* Logo */
+  .header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6f00;
+    text-decoration: none;
+    flex-shrink: 0; 
+  }
+  
+  /* Menu */
+  .menu {
+    display: flex; 
+    gap: 1.875rem;
+    margin-left: 0; 
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 1.875rem;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li a {
+    color: #FDFDFF;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  /* Botão de contato */
+  .btn-contato-menu {
+    display: inline-flex; 
+    align-items: center; 
+    gap: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #0e1b47; 
+    color: #ff6f00; 
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 0.9rem; 
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    flex-shrink: 0; 
+  }
+  .btn-contato-menu:hover {
+    background-color: #00153A; 
+    color: #984600; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .simbolo-zotus {
+    width: 1em; 
+    height: 1em; 
+    display: inline-block;
+    color: #ff6f00; 
+    fill: #ff6f00; 
+  }

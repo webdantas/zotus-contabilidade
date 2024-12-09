@@ -1,0 +1,125 @@
+/* Hero Section */
+.container-hero {
+    width: 80%;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.125rem 0;
+  
+  }
+  .hero {
+    position: relative;
+    overflow: hidden;
+    background: #0e1b47;
+    padding-bottom: 3.125rem;
+  
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    gap: 0.625rem;
+  
+  }
+  .hero-content .tagline {
+    display: inline-flex; 
+    align-items: center; 
+    background-color: transparent;
+    color: #ff6f00;
+    padding: 0.3125rem 0.625rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    gap: 0.625rem;
+    border: 0.0625rem solid #28459A;
+    border-radius: 1.25rem;
+    
+  }
+  .icone-contabilidade {
+    width: 1em; 
+    height: auto; 
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.3;
+    color: #FDFDFF;
+    margin-top: 0; 
+  }
+  .hero-content h1 .span-amarelo {
+    color: #FF8000;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin-top: 0; 
+    margin-bottom: 0; 
+    color: #ccc;
+    max-width: 50rem;
+   
+  }
+  .hero-buttons .buttons-container {
+    display: flex;
+    padding: 0.625rem;
+    gap: 0.9375rem;
+    margin-top: 1.25rem;
+    border-radius: 6.25rem;
+    background-color: #1a2a4f;
+  }
+  .hero-buttons .btn {
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .hero-buttons .btn-primary {
+    width: 15.25rem;
+    height: 3rem;
+    background-color: #ff6f00;
+    color: white;
+    border-radius: 6.25rem;
+  
+  }
+  .hero-buttons .btn-primary:hover {
+    background-color: #e65c00;
+  }
+  .hero-buttons .btn-secondary {
+    background-color: transparent;
+    border-radius: 6.25rem;
+    color: #ff6f00;
+  }
+  .hero-buttons .btn-secondary:hover {
+    background-color: #ff6f00;
+    color: #FDFDFF;
+  }
+  .flecha-botao{
+    margin-bottom: 0.1875rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    margin-left: 0.3125rem;
+    vertical-align: middle;
+  }
+  
+  /* Hero Image */
+  .hero-image {
+    position: relative;
+    max-width: 50%;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 0.625rem;
+  
+  }
+  
+  .hero-image .highlight {
+    position: absolute;
+    top: 1.25rem;
+    right: -3.125rem;
+    background-color: #ff6f00;
+    color: #FDFDFF;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 3.125rem;
+    transform: rotate(15deg);
+  }

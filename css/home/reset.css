@@ -1,0 +1,17 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Corpo */
+  body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+  }
+  /* Container para centralizar os elementos */
+  .container-menu {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 75rem;
+  }

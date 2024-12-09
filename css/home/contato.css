@@ -1,0 +1,146 @@
+/* Contato */
+
+.contato {
+    margin: 0 auto; 
+    padding: 0;
+    background-image: linear-gradient( #FDFDFF 50% #6A7891 50%);
+    font-family: "Bricolage Grotesque", sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .container-contato {
+    display: flex;
+    width: 71.25rem;
+    height: 39.875rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .left-panel {
+    background-color: #CB6300;
+    width: 51.875rem;
+    height: 32.1875rem;
+    padding: 3.125rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.625rem 0 0 0.625rem;
+  
+  }
+  
+  .left-panel h1 {
+    color: #FDFDFF;
+    font-size: 2.5rem;
+    line-height: 1.4;
+  }
+  
+  .highlight {
+    color: #0033a0;
+  }
+  
+  .chat-button {
+    background-color: #FF8000;
+    color: #002068;
+    border: 1px solid #984600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    border-radius: 1.25rem;
+    padding: 0.3125rem 0.9375rem;
+    gap: 0.625rem;
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .chat-button img {
+    margin-right: 0.5rem;
+  
+  }
+  
+  .right-panel {
+    background-color: #FF8000;
+    width: 51.875rem;
+    height: 32.1875rem;
+    padding: 3.125rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0.625rem 0.625rem 0;
+  
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 15px;
+    padding: 0.625rem;
+    font-size: 1rem;
+    border: 0.5px solid #984600; 
+    color:#984600;
+    border-radius: 3.125rem;
+    background-color: #FF8000; 
+    opacity: 1; 
+  }
+  
+  form button {
+    background-color: #00153A; 
+    color: #FDFDFF;
+    border: none;
+    border-radius: 3.125rem;
+    margin: 1.25rem;
+    padding: 0.625rem 0.9375rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056d1;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 0.625rem;
+    color:#FDFDFF;
+  }
+  .checkbox-container a {
+    text-decoration: none;
+    color:#FFD078;
+  }
+  
+  .checkbox-container input {
+    margin-right: 0.625rem;
+    padding: 0rem;
+    
+  }
+  .checkbox-container button {
+    font-weight: bold;
+    font-family:"Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  form p {
+    font-size: 0.9rem;
+    color: #984600;
+  }
+  
+  form p a {
+    color: #0033a0;
+    text-decoration: none;
+  }
+  
+  form p a:hover {
+    text-decoration: underline;
+  }
+  

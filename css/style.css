@@ -1,0 +1,30 @@
+/*global*/
+@import "./home/global.css";
+
+/*header*/
+@import "./home/header.css";
+
+/*hero*/
+@import "./home/hero.css";
+
+/*serviços*/
+@import "./home/servicos.css";
+
+/*carrossel*/
+@import "./home/carrossel.css";
+
+/*contato*/
+@import "./home/contato.css";
+
+/*blog*/
+@import "./home/blog.css";
+
+/*footer*/
+@import "./home/footer.css";
+
+/*reset*/
+@import "./home/reset.css";
+
+
+
+

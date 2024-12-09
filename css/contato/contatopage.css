@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    font-family: 'Bricolage Grotesque';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.modal-container {
+    width: 22.5rem; /* 360px */
+    background-color: #FDFDFF;
+    border-radius: 0.625rem; /* 10px */
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1); /* 0 4px 10px */
+    padding: 1.25rem; /* 20px */
+    position: relative;
+    text-align: center;
+    height: 31.25rem; /* 500px */
+}
+
+.close-button {
+    position: absolute;
+    top: 0.625rem; /* 10px */
+    right: 0.625rem; /* 10px */
+    background: none;
+    border: none;
+    font-size: 1rem; /* 16px */
+    cursor: pointer;
+    color: #002068;
+}
+
+.logo {
+    margin-top: 3.125rem; /* 50px */
+    margin-bottom: 1.25rem; /* 20px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    font-size: 0.875rem; /* 14px */
+    color: #0B1623;
+    line-height: 1.6;
+    margin-bottom: 1.25rem; /* 20px */
+    margin-top: 1.875rem; /* 30px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    hyphens: auto;
+    word-break: break-word;
+}
+
+.contact-info {
+    margin-bottom: 1.25rem; /* 20px */
+    margin-top: 1.875rem; /* 30px */
+}
+
+.contact-item {
+    margin-bottom: 0.625rem; /* 10px */
+    margin-top: 1.25rem; /* 20px */
+}
+
+.label {
+    font-size: 0.75rem; /* 12px */
+    color: #ff6600;
+    font-weight: bold;
+    display: block;
+}
+
+.value {
+    font-size: 0.875rem; /* 14px */
+    color: #333;
+}
+
+.social-icons {
+    padding: 0.625rem; /* 10px */
+    gap: 1.25rem; /* 20px */
+    margin-bottom: 1.25rem; /* 20px */
+    margin-top: 1.875rem; /* 30px */
+    display: flex;
+    justify-content: left;
+}
+
+.icon {
+    width: 1.1875rem; /* 19px */
+    height: 1.1875rem; /* 19px */
+    display: inline-block;
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url(../images/insta-azul.png); /* Use o ícone correto */
+}
+
+.facebook {
+    background-image: url(../images/Facebook-azul.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin-azul.png);
+}
+
+.whatsapp {
+    background-image: url(../images/whatsapp-azul.png);
+}
+
+.contact-button {
+    margin: 1.875rem auto 0; /* 30px auto 0 */
+    background-color: #137735;
+    color: #002068;
+    font-size: 1rem; /* 16px */
+    font-weight: bold;
+    border: none;
+    border-radius: 3.125rem; /* 50px */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    cursor: pointer;
+    gap: 0.625rem; /* 10px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.contact-button .whatsapp-icon {
+    width: 1.1875rem; /* 19px */
+    height: 1.1875rem; /* 19px */
+    background-image: url('icons/whatsapp-icon.png');
+    background-size: cover;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}
