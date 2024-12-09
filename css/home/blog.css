@@ -101,6 +101,7 @@
   
   /* Blog Card */
   .blog-card {
+    position: relative;
     background-color: #FDFDFF;
     width: 18.75rem;
     height: 27.1875rem;
@@ -117,18 +118,20 @@
   }
   
   .blog-category {
-    display: inline-block;
+    position: absolute; 
     background-color: #FF8300;
     color: #001B51;
     font-size: 0.8rem;
-    font-weight: bold;
     padding: 0.3125rem 0.625rem;
-    margin: 0.9375rem;
-    border-radius: 0.3125rem;
-    
+    margin: 0; 
+    border-radius: 1rem;
+    z-index: 1; 
+    top: 11.5rem; 
+    left: 1rem; 
   }
   
   .blog-date {
+    padding: 1rem; 
     font-size: 0.8rem;
     color: #888;
     margin: 0rem 0.9375rem 0.625rem;
@@ -136,25 +139,64 @@
   }
   
   .blog-card h2 {
+    padding: 0.8rem; 
     font-size: 1.2rem;
     color: #002068;
     margin: 0rem 0.9375rem 0.625rem;
   }
   
   .blog-readmore {
+    padding: 1rem; 
     font-size: 0.9rem;
     color: #FF8300;
     text-decoration: none;
     font-weight: bold;
     margin: 0rem 0.9375rem 0.625rem;
-  
+    align-items: center;
   }
   
   .blog-readmore:hover {
     text-decoration: underline;
   }
   
-  /* Responsividade */
+  @media (max-width: 1024px) {
+    .blog-header h1 {
+      font-size: 1.6rem;
+      margin-left: 0;
+    }
+  
+    .blog-link,
+    .blog-button {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0.5rem 1rem;
+    }
+  
+    .blog-container {
+      gap: 1rem;
+    }
+  
+    .blog-card {
+      width: 16rem;
+      height: 25rem;
+    }
+  
+    .blog-card h2 {
+      font-size: 1.1rem;
+    }
+  
+    .blog-date,
+    .blog-category {
+      font-size: 0.7rem;
+    }
+  
+    /* Diminuir o tamanho das imagens */
+    .blog-card img {
+      height: 10rem;
+    }
+  }
+  
+  /* 768px (Tablets e dispositivos menores) */
   @media (max-width: 768px) {
     .blog-container {
       flex-direction: column;
@@ -163,5 +205,69 @@
   
     .blog-card {
       width: 90%;
+      height: auto;
+    }
+  
+    .blog-card img {
+      height: 8rem;
+    }
+  
+    .blog-header h1 {
+      font-size: 1.4rem;
+      margin-left: 0;
+    }
+  
+    .blog-link,
+    .blog-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+    }
+  
+    .blog-card h2 {
+      font-size: 1rem;
+    }
+  
+    .blog-date,
+    .blog-category {
+      font-size: 0.6rem;
+      margin-left: 1.25rem;
+    }
+  }
+  
+  /* 480px (Celulares) */
+  @media (max-width: 480px) {
+    .blog-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .blog-card {
+      width: 100%;
+      height: auto;
+    }
+  
+    .blog-card img {
+      height: 6rem; /* Diminuir ainda mais para celulares */
+    }
+  
+    .blog-header h1 {
+      font-size: 1.2rem;
+      margin-left: 0;
+    }
+  
+    .blog-link,
+    .blog-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+    }
+  
+    .blog-card h2 {
+      font-size: 0.9rem;
+    }
+  
+    .blog-date,
+    .blog-category {
+      font-size: 0.55rem;
+      margin-left: 1rem;
     }
   }

@@ -134,4 +134,115 @@
   .indicator.active {
     background-color: #FF8300; 
   }
-    
+  
+  @media (max-width: 1024px) {
+    .carousel-container {
+      max-width: 90%;
+    }
+  
+    .carousel-item {
+      width: 15rem;
+      margin-right: 1rem;
+    }
+  
+    .carousel-item img {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .carousel-item h3 {
+      font-size: 1.1em;
+    }
+  
+    .carousel-item p {
+      font-size: 0.85em;
+      padding: 1rem;
+    }
+  
+    .carousel-btn {
+      padding: 1rem;
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+  
+    .carousel-btn img {
+      width: 0.875rem;
+      height: 0.875rem;
+    }
+  }
+  
+  /* 768px (Tablets e dispositivos menores) */
+  @media (max-width: 768px) {
+    .carousel-container {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .carousel-item {
+      width: 14rem;
+      margin-right: 0.75rem;
+    }
+  
+    .carousel-item img {
+      width: 1.875rem;
+      height: 1.875rem;
+    }
+  
+    .carousel-item h3 {
+      font-size: 1em;
+    }
+  
+    .carousel-item p {
+      font-size: 0.8em;
+      padding: 0.875rem;
+    }
+  
+    .carousel-btn {
+      padding: 0.875rem;
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+  
+    .carousel-btn img {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+  }
+  
+  /* 480px (Celulares) */
+  @media (max-width: 480px) {
+    .carousel-container {
+      max-width: 100%;
+      padding: 0 0.5rem;
+    }
+  
+    .carousel-item {
+      width: 12rem;
+      margin-right: 0.5rem;
+    }
+  
+    .carousel-item img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  
+    .carousel-item h3 {
+      font-size: 0.9em;
+    }
+  
+    .carousel-item p {
+      font-size: 0.75em;
+      padding: 0.75rem;
+    }
+  
+    .carousel-btn {
+      padding: 0.75rem;
+      width: 0.625rem;
+      height: 0.625rem;
+    }
+  
+    .carousel-btn img {
+      width: 0.625rem;
+      height: 0.625rem;
+    }
+  }
