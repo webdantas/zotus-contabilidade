@@ -11,7 +11,7 @@ Este projeto consistiu em desenvolver um site responsivo baseado em um design do
 npm run dev
 
 <h2> Tecnologias Utilizadas</h2>
-<h3>React.JS</h3>
+
 <h3> JavaScript</h3>
 <h3> HTML</h3>
 <h3> CSS</h3>
