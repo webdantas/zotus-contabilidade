@@ -135,14 +135,16 @@
     }
   
     .titulos-container h2 {
-      font-size: 1.5rem;
-      margin-left: 0;
-    }
-  
-    .titulos-container p .botao-whats {
-      font-size: 0.8rem;
-      margin-right: 0;
-    }
+      margin-left: 0; /* Remove o margin-left */
+      float: none; /* Remove o float */
+      text-align: center; /* Centraliza o texto */
+  }
+
+  .titulos-container p .botao-whats {
+      margin-right: 0; /* Remove o margin-right */
+      float: none; /* Remove o float */
+      text-align: center; /* Centraliza o botão */
+  }
   
     .cards {
       flex-direction: column;

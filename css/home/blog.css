@@ -226,11 +226,24 @@
     .blog-card h2 {
       font-size: 1rem;
     }
-  
+    .blog-category,
     .blog-date,
+    .blog-card h2,
+    .blog-readmore {
+        display: block; 
+        width: 100%; 
+        font-size: 0.7rem; 
+        margin: 0.5rem 0; 
+    }
+
     .blog-category {
-      font-size: 0.6rem;
-      margin-left: 1.25rem;
+        position: relative; 
+        top: auto; 
+        left: auto; 
+    }
+
+    .blog-readmore {
+        text-align: center; 
     }
   }
   
