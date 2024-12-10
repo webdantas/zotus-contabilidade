@@ -7,9 +7,6 @@ Ultima versão: Dezembro 2024.
 Este projeto consistiu em desenvolver um site responsivo baseado em um design do Figma, utilizando HTML, CSS e JavaScript. Após analisar detalhadamente o layout, criei uma estrutura semântica, apliquei estilizações precisas e adaptei o site para diversos dispositivos, garantindo usabilidade e fidelidade ao design original. Também implementei interações dinâmicas para melhorar a experiência do usuário. O resultado é um site funcional, responsivo e visualmente consistente, representando uma experiência prática de todo o fluxo de desenvolvimento, desde a análise até a entrega final.
 <h2>Status do Projeto</h2><h4 align="center">:star: Projeto Concluído! :star:</h4>
 
-<h2>:hammer:Funcionalidades e Demonstração da Aplicação</h2>
-<img src="https://github.com/user-attachments/assets/7c9728c7-ca32-4f8a-89d5-97380c9bdaa6" alt="quando clica em luke skywalker">
-
 <h2>Acesso ao projeto</h2>
 npm run dev
 
