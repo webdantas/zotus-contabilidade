@@ -16,10 +16,3 @@
     max-width: 75rem;
   }
 
-  @media (max-width: 1024px) {
-    .container-menu {
-      width: 60%;
-      margin: 0 auto;
-      max-width: 70rem;
-    }
-  }

@@ -16,12 +16,14 @@
   }
   
   /* Logo */
-  .header .logo {
+  .header .logo img {
     font-size: 2rem;
     font-weight: bold;
     color: #ff6f00;
     text-decoration: none;
     flex-shrink: 0; 
+    max-width: 100%; 
+    height: auto;
   }
   
   /* Menu */
@@ -95,27 +97,38 @@
   }
 
   @media (max-width: 768px) {
-    .menu ul {
-      gap: 0.1rem;
-    }
     .header {
       padding: 1.25rem 0.625rem;
     }
-    .header .logo {
-      display:none;
+    
+    .header .logo img {
+      max-width: 150px; /* Reduz o tamanho do logo */
     }
-    .btn-contato-menu{
-      font-size: 0.7rem; 
+  
+    .menu ul {
+      gap: 0.5rem;
     }
+  
+    .btn-contato-menu {
+      padding: 0.3rem 0.7rem; /* Reduz o tamanho do botão */
+      font-size: 0.7rem; /* Diminui a fonte */
+      gap: 0.3rem; /* Ajusta o espaçamento interno */
   }
+  }
+  
   @media (max-width: 480px) {
-    .header .logo {
-      display:none;
+    .header .logo img {
+      max-width: 90px; /* Ainda menor para dispositivos móveis */
     }
-    .btn-contato-menu{
-      font-size: 0.5rem; 
+  
+    .btn-contato-menu {
+      padding: 0.2rem 0.5rem; /* Ainda menor para dispositivos móveis */
+      font-size: 0.6rem; /* Reduz mais a fonte */
+      gap: 0.2rem; 
     }
+  
     .menu ul {
       font-size: 0.7rem;
     }
   }
+  
