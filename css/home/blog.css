@@ -300,38 +300,125 @@
   }
   
   @media (max-width: 480px) {
-    .blog-container {
-      flex-direction: column;
-      align-items: center;
+    /* Blog Header */
+    .blog-header {
+      flex-direction: column; /* Alinha os itens em coluna */
+      align-items: center; /* Centraliza os itens */
+      padding: 1rem; /* Ajusta o padding para não ficar apertado */
     }
   
-    .blog-card {
-      width: 100%;
-      height: auto;
-    }
-  
-    .blog-card img {
-      height: 6rem; 
+    .blog-header-left {
+      margin-right: 0; /* Remove a margem direita para alinhar ao centro */
+      text-align: center; /* Centraliza o texto */
     }
   
     .blog-header h1 {
-      font-size: 1.2rem;
-      margin-left: 0;
+      font-size: 1.4rem; /* Ajusta o tamanho do título */
+      text-align: center; /* Centraliza o título */
+      margin: 0 0 1rem 0; /* Ajusta a margem inferior */
     }
   
+    /* Blog Links and Buttons */
     .blog-link,
     .blog-button {
-      padding: 0.5rem 1rem;
-      font-size: 0.8rem;
+      width: 100%; /* Faz com que os botões ocupem toda a largura disponível */
+      padding: 0.75rem 1.2rem; /* Ajusta o padding */
+      font-size: 1rem; /* Ajusta o tamanho da fonte */
+      text-align: center; /* Centraliza o texto */
+      margin-bottom: 1rem; /* Adiciona espaçamento entre os botões */
+      box-sizing: border-box; /* Garante que o padding não extrapole a largura */
     }
   
-    .blog-card h2 {
-      font-size: 0.9rem;
+    .blog-link {
+      background-color: #FF8300;
+      color: #FDFDFF;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 1.25rem;
+      transition: background-color 0.3s ease;
     }
   
+    .blog-link:hover {
+      background-color: #FF9900;
+    }
+  
+    .blog-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #002068;
+      border-radius: 1.25rem;
+      color: #002068;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    .blog-button img {
+      width: 1rem;
+      height: 1rem;
+      margin-left: 0.5rem; /* Dá um espaçamento entre o ícone e o texto */
+    }
+  
+    /* Blog Container */
+    .blog-container {
+      display: flex;
+      flex-direction: column; /* Alinha os cards em coluna */
+      align-items: center; /* Centraliza os cards */
+      padding: 0 1rem; /* Adiciona espaçamento nas laterais */
+      gap: 1.5rem; /* Adiciona um bom espaçamento entre os cards */
+      width: 100%;
+    }
+  
+    /* Blog Card */
+    .blog-card {
+      width: 100%; /* Deixa os cards ocupando toda a largura */
+      max-width: 350px; /* Limita a largura dos cards */
+      height: auto; /* Deixa a altura do card automática */
+      padding: 1rem; /* Adiciona padding */
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar o card */
+      margin-bottom: 1rem; /* Garante que haja espaçamento entre os cards */
+      border-radius: 0.625rem; /* Arredonda os cantos do card */
+      background-color: #FDFDFF;
+      text-align: left; /* Alinha o texto dentro do card */
+      box-sizing: border-box; /* Garante que o padding não ultrapasse a largura do card */
+    }
+  
+    .blog-card img {
+      width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+      height: 8rem; /* Ajusta a altura da imagem */
+      object-fit: cover; /* Garante que a imagem cubra o espaço */
+      border-radius: 0.625rem; /* Arredonda os cantos da imagem */
+    }
+  
+    .blog-category,
     .blog-date,
+    .blog-readmore {
+      font-size: 0.75rem; /* Ajusta o tamanho da fonte */
+      text-align: center; /* Centraliza o texto */
+      width: 100%; /* Faz com que esses elementos ocupem toda a largura disponível */
+      margin-top: 0.5rem; /* Adiciona espaço entre os elementos */
+    }
+  
     .blog-category {
-      font-size: 0.55rem;
-      margin-left: 1rem;
+      background-color: #FF8300;
+      color: #001B51;
+      padding: 0.3125rem 0.625rem;
+      border-radius: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .blog-readmore {
+      text-decoration: none;
+      color: #FF8300;
+      font-weight: bold;
+      transition: text-decoration 0.3s ease;
+    }
+  
+    .blog-readmore:hover {
+      text-decoration: underline;
     }
   }
+  
+  
+  
+  
