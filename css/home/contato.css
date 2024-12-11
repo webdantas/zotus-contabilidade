@@ -177,7 +177,6 @@
     }
   }
   
-  /* 768px (Tablets and smaller devices) */
   @media (max-width: 768px) {
     .container-contato {
       width: 100%;
@@ -216,7 +215,6 @@
     }
   }
   
-  /* 480px (Mobile devices) */
   @media (max-width: 480px) {
     .container-contato {
       width: 100%;

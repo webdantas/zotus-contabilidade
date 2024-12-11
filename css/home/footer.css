@@ -134,7 +134,7 @@
     }
   }
   
-  /* 768px (Tablets e dispositivos menores) */
+
   @media (max-width: 768px) {
     .footer-logo .logo {
       max-width: 7rem;
@@ -168,7 +168,7 @@
     }
   }
   
-  /* 480px (Celulares) */
+ 
   @media (max-width: 480px) {
     .footer-logo .logo {
       max-width: 6rem;

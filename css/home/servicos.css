@@ -128,22 +128,22 @@
     }
   }
   
-  /* 768px (Tablets and smaller devices) */
+  
   @media (max-width: 768px) {
     .servicos {
       padding: 1.5rem 1.25rem;
     }
   
     .titulos-container h2 {
-      margin-left: 0; /* Remove o margin-left */
-      float: none; /* Remove o float */
-      text-align: center; /* Centraliza o texto */
+      margin-left: 0; 
+      float: none; 
+      text-align: center; 
   }
 
   .titulos-container p .botao-whats {
-      margin-right: 0; /* Remove o margin-right */
-      float: none; /* Remove o float */
-      text-align: center; /* Centraliza o botão */
+      margin-right: 0; 
+      float: none; 
+      text-align: center; 
   }
   
     .cards {
@@ -170,7 +170,7 @@
     }
   }
   
-  /* 480px (Mobile devices) */
+ 
   @media (max-width: 480px) {
     .servicos {
       padding: 1rem 1.25rem;

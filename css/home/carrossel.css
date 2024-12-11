@@ -172,7 +172,7 @@
     }
   }
   
-  /* 768px (Tablets e dispositivos menores) */
+  
   @media (max-width: 768px) {
     .carousel-container {
       max-width: 100%;
@@ -210,7 +210,7 @@
     }
   }
   
-  /* 480px (Celulares) */
+  
   @media (max-width: 480px) {
     .carousel-container {
       max-width: 100%;
