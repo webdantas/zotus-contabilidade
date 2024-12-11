@@ -1,72 +1,61 @@
 /* Blog */
-.blog{
-    padding: 2.5rem 1.25rem;
-    text-align: center;
-  }
-  
-  .blog-header {
-    display: flex;
-    align-items: center; 
-    flex-direction: column; 
-    align-items: flex-start; 
-    gap: 1.25rem;
-    margin-bottom: 2.5rem;
-    padding: 0 1.25rem;
-  
-  }
-  .blog-header-content {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    width: 100%; 
-  }
-  
-  .blog-header h1 {
-    flex: 1; 
-    font-size: 1.8rem;
-    color: #002068;
-    text-align: left;
-    margin-left: 31.25rem;
-  
-  }
-  
-  .blog-link {
-    text-decoration: none;
-    background-color: #FF8300;
-    color: #FDFDFF;
-    font-weight: bold;
-    padding: 0.625rem 1.25rem;
-    border-radius: 1.25rem;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
-    margin-right: 31.25rem;
-  
-  }
-  
-  .blog-link:hover {
-    background-color: #FF9900;
-  }
-  .blog-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: transparent;
-    border: 0.0625rem solid #002068;
-    border-radius: 1.25rem;
-    color: #002068;
-    padding: 0.625rem 1.25rem;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 0.9rem;
-    margin-left: 31.25rem;
-  }
-  
-  
-  .blog-button img {
-    width: 1rem;
-    height: 1rem;
-  }
-  
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem; /* Espaçamento entre os elementos */
+  padding: 2rem 1rem;
+}
+
+.blog-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%; /* Garante que os elementos se alinhem ao centro */
+}
+
+.blog-header h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #002068;
+  margin: 0;
+}
+
+.blog-link {
+  text-decoration: none;
+  background-color: #FF8300;
+  color: #FDFDFF;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.blog-link:hover {
+  background-color: #FF9900;
+}
+
+.blog-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  border: 2px solid #002068;
+  border-radius: 1.25rem;
+  color: #002068;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.blog-button img {
+  width: 1rem;
+  height: 1rem;
+}
   
   .container-esquerdo{
     display: flex;
@@ -158,6 +147,31 @@
   .blog-readmore:hover {
     text-decoration: underline;
   }
+  
+  @media (max-width: 1400px) {
+    .blog-header {
+      padding: 1.5rem 1rem;
+    }
+  
+    .blog-header-content {
+      gap: 1rem;
+    }
+  
+    .blog-header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .blog-link {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  
+    .blog-button {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
   
   @media (max-width: 1024px) {
     .blog-header h1 {

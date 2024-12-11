@@ -29,6 +29,7 @@
   .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    margin-right: -1.25rem;
   }
   
   .carousel-item {
