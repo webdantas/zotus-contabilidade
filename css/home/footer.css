@@ -100,7 +100,30 @@
   .back-to-top:hover {
     transform: scale(1.1);
   }
-
+  @media (max-width: 1400px) {
+    .footer-logo .logo {
+      margin-left: 0;
+      max-width: 9rem;
+    }
+  
+    .footer-description {
+      margin-right: 0;
+      font-size: 0.8rem;
+      margin-bottom: 1.26rem;
+    }
+  
+    .zotus-info-footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-nav a {
+      font-size: 1rem;
+    }
+    .decorative{
+      display: none;
+    }
+  }
   @media (max-width: 1024px) {
     .footer-logo .logo {
       margin-left: 0;
