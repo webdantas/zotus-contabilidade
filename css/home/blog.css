@@ -155,8 +155,8 @@
   @media (max-width: 1400px) {
     .blog-header {
       align-items: center; 
-      padding: 0 1rem; 
-      flex-direction: column; 
+      padding: 2rem 1rem; /* Mantém o padding original */
+      flex-direction: row; /* Garante que o layout continue na direção de linha */
     }
   
     .blog-header-content {
@@ -164,51 +164,53 @@
       flex-wrap: wrap; 
       justify-content: center; 
       width: 100%; 
-      gap: 1rem; 
+      gap: 1rem;
+    }
+  
+    .blog-header-left {
+      margin-right: 200px; /* Mantém a margem original */
     }
   
     .blog-header h1 {
-      font-size: 1.8rem; 
-      text-align: center; 
-      margin-left: 0; 
+      font-size: 2rem; /* Mantém o tamanho original da fonte */
+      text-align: left; /* Alinha o texto à esquerda */
     }
   
     .blog-link {
-      margin: 0 auto; 
-      display: inline-block; 
-      padding: 0.6rem 1.2rem; 
-      font-size: 0.95rem; 
+      margin: 0; 
+      padding: 0.75rem 1.5rem; /* Mantém o padding original */
+      font-size: 1rem; /* Mantém o tamanho original */
     }
   
     .blog-button {
-      margin: 0 auto; 
-      padding: 0.6rem 1.2rem; 
-      font-size: 0.95rem; 
+      margin: 0; 
+      padding: 0.75rem 1.5rem; /* Mantém o padding original */
+      font-size: 1rem; /* Mantém o tamanho original */
     }
   
     .blog-container {
-      gap: 1.5rem;
+      gap: 1.25rem; /* Mantém o gap original */
     }
   
     .blog-card {
-      width: 18rem; 
-      height: 26rem; 
+      width: 18.75rem; /* Mantém a largura original */
+      height: 27.1875rem; /* Mantém a altura original */
     }
   
     .blog-card img {
-      height: 12rem; 
+      height: 12.5rem; /* Mantém o tamanho da imagem */
     }
   
-    .blog-category,
+    .blog-category, 
     .blog-date {
-      font-size: 0.75rem; 
+      font-size: 0.8rem; /* Mantém o tamanho da fonte */
     }
   
     .blog-readmore {
-      font-size: 0.85rem; 
+      font-size: 0.9rem; /* Mantém o tamanho da fonte */
     }
   }
-  
+
   
   @media (max-width: 1024px) {
     .blog-header h1 {
